@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".DetailActivity">
+
+        <ImageView
+            android:id="@+id/upImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            tools:src="@drawable/image1"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/upName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/fansNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="#f0f0f0"
+            android:text="取关"/>
+
+
+    </LinearLayout>
+</layout>
